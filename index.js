@@ -1,9 +1,12 @@
 import express, { Router } from "express";
 import mongoose from "mongoose";
 import morgan from "morgan";
+import dotenv from "dotenv";
 
 
 const app =express();
+
+
 app.use(morgan('dec'));
 app.use(express.json());
 app.use('/api/v1',Router);
