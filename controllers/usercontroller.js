@@ -74,3 +74,12 @@ export const addProduct =(req,res)=>{
         }
     }
 
+export const aboverange=async(req,res)=>{
+    try{
+        const {range}=req.
+
+    }
+    catch(error){
+        return res.send(error);
+    }
+}
